@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://namu-voca.com/sitemap.xml
+
+# Disallow admin/private areas (add as needed)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Allow important files
+Allow: /images/
+Allow: /styles.css
+Allow: /script.js

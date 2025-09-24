@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="ko" data-lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- SEO Meta Tags -->
+		<title data-translate="page-title">
+			나무보카 - 세상을 변화시키는 단어장 | 스마트 언어 학습 앱
+		</title>
+		<meta
+			name="description"
+			data-translate="page-description"
+			content="즉시 추가, 맞춤형 팟캐스트, 퀴즈로 13개 언어를 효과적으로 학습하세요. PDF 출력 지원. iOS, Android 지원."
+		/>
+		<meta
+			name="keywords"
+			content="나무보카, 단어장, 언어학습, 팟캐스트, 퀴즈, PDF출력, iOS, Android, 영어학습, 일본어학습"
+		/>
+		<meta name="author" content="Team NAMU" />
+
+		<!-- Open Graph / Social Media -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://namu-voca.com/" />
+		<meta
+			property="og:title"
+			data-translate="page-title"
+			content="나무보카 - 세상을 변화시키는 단어장"
+		/>
+		<meta
+			property="og:description"
+			data-translate="page-description"
+			content="즉시 추가, 맞춤형 팟캐스트, 퀴즈로 13개 언어를 효과적으로 학습하세요."
+		/>
+		<!-- TODO: Add og:image with app screenshot/logo -->
+		<meta
+			property="og:image"
+			content="https://namu-voca.com/images/og-image.png"
+		/>
+
+		<!-- Twitter Card -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://namu-voca.com/" />
+		<meta
+			property="twitter:title"
+			data-translate="page-title"
+			content="나무보카 - 세상을 변화시키는 단어장"
+		/>
+		<meta
+			property="twitter:description"
+			data-translate="page-description"
+			content="즉시 추가, 맞춤형 팟캐스트, 퀴즈로 13개 언어를 효과적으로 학습하세요."
+		/>
+		<!-- TODO: Add Twitter image -->
+		<meta
+			property="twitter:image"
+			content="https://namu-voca.com/images/og-image.png"
+		/>
+
+		<!-- Favicon -->
+		<!-- TODO: Add favicon files -->
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+		<!-- Structured Data for SEO -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "MobileApplication",
+				"name": "나무보카",
+				"description": "당신만의 똑똑한 언어 학습 앱",
+				"applicationCategory": "EducationalApplication",
+				"operatingSystem": ["iOS", "Android"],
+				"offers": {
+					"@type": "Offer",
+					"price": "0",
+					"priceCurrency": "KRW"
+				},
+				"aggregateRating": {
+					"@type": "AggregateRating",
+					"ratingValue": "4.8",
+					"ratingCount": "1000"
+				}
+			}
+		</script>
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<!-- Navigation -->
+		<nav class="navbar" id="navbar">
+			<div class="nav-container">
+				<div class="nav-logo">
+					<!-- TODO: Add actual logo image -->
+					<img src="images/logo.png" alt="나무보카 로고" class="logo-img" />
+					<span class="logo-text" data-translate="nav-logo">나무보카</span>
+				</div>
+
+				<div class="nav-menu" id="nav-menu">
+					<a href="#home" class="nav-link" data-translate="nav-home">홈</a>
+					<a href="#features" class="nav-link" data-translate="nav-features"
+						>기능</a
+					>
+					<a href="#download" class="nav-link" data-translate="nav-download"
+						>다운로드</a
+					>
+					<a href="#about" class="nav-link" data-translate="nav-about"
+						>팀 소개</a
+					>
+					<a href="#contact" class="nav-link" data-translate="nav-contact"
+						>문의</a
+					>
+
+					<!-- Language Toggle -->
+					<div class="lang-toggle">
+						<button class="lang-btn" data-lang="ko">한국어</button>
+						<button class="lang-btn" data-lang="en">English</button>
+					</div>
+				</div>
+
+				<div class="nav-toggle" id="nav-toggle">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Hero Section -->
+		<section id="home" class="hero">
+			<div class="hero-container">
+				<div class="hero-content">
+					<div class="hero-badge" data-translate="hero-badge">
+						🌟 언제 어디서나 즉시 학습하는 새로운 패러다임
+					</div>
+					<h1 class="hero-title">
+						<span data-translate="hero-title-1">세상을 변화시키는</span><br />
+						<span class="gradient-text" data-translate="hero-title-2"
+							>스마트 단어장</span
+						>
+					</h1>
+					<p class="hero-description" data-translate="hero-description">
+						원하는 단어와 문장을 언제든 즉시 추가하고, 맞춤형 팟캐스트와 퀴즈를
+						생성하세요.<br />
+						13개 언어 조합으로 완벽한 학습 경험을 제공합니다.
+					</p>
+
+					<div class="hero-cta">
+						<a
+							href="#download"
+							class="btn btn-primary"
+							data-translate="hero-cta-download"
+						>
+							<span>📱</span> 무료 다운로드
+						</a>
+						<a
+							href="#features"
+							class="btn btn-secondary"
+							data-translate="hero-cta-features"
+						>
+							<span>🎯</span> 기능 살펴보기
+						</a>
+					</div>
+
+					<div class="hero-stats">
+						<div class="stat-item">
+							<div class="stat-number">13+</div>
+							<div class="stat-label" data-translate="stat-languages">
+								지원 언어
+							</div>
+						</div>
+						<div class="stat-item">
+							<div class="stat-number">10K+</div>
+							<div class="stat-label" data-translate="stat-users">사용자</div>
+						</div>
+						<div class="stat-item">
+							<div class="stat-number">4.8★</div>
+							<div class="stat-label" data-translate="stat-rating">평점</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="hero-visual">
+					<!-- TODO: Add app screenshots/mockups -->
+					<div class="phone-mockup">
+						<img
+							src="images/app-screenshot-main.png"
+							alt="나무보카 앱 스크린샷"
+							class="app-screenshot"
+						/>
+					</div>
+					<div class="floating-elements">
+						<div class="floating-card card-1">
+							<span class="emoji">🎧</span>
+							<span data-translate="floating-podcast">맞춤형 팟캐스트</span>
+						</div>
+						<div class="floating-card card-2">
+							<span class="emoji">⚡</span>
+							<span data-translate="floating-instant">즉시 추가</span>
+						</div>
+						<div class="floating-card card-3">
+							<span class="emoji">📚</span>
+							<span data-translate="floating-vocab">스마트 단어장</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Features Section -->
+		<section id="features" class="features">
+			<div class="container">
+				<div class="section-header">
+					<h2 class="section-title" data-translate="features-title">
+						나무보카만의 특별한 기능들
+					</h2>
+					<p class="section-description" data-translate="features-description">
+						즉시 추가, 맞춤형 생성, PDF 출력까지 - 언제 어디서나 완벽한 언어
+						학습 경험을 제공합니다
+					</p>
+				</div>
+
+				<div class="features-grid">
+					<!-- Smart Vocabulary -->
+					<div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+						<div class="feature-icon">⚡</div>
+						<h3 class="feature-title" data-translate="feature-vocab-title">
+							즉시 단어 추가
+						</h3>
+						<p class="feature-description" data-translate="feature-vocab-desc">
+							원하는 단어와 문장을 언제든 즉시 추가하고, 13개의 언어 조합으로
+							나만의 단어장을 완성하세요
+						</p>
+						<ul class="feature-list">
+							<li data-translate="feature-vocab-1">즉시 단어 및 문장 추가</li>
+							<li data-translate="feature-vocab-2">13개의 언어 조합 지원</li>
+							<li data-translate="feature-vocab-3">PDF 출력 및 인쇄 가능</li>
+						</ul>
+					</div>
+
+					<!-- Podcast -->
+					<div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+						<div class="feature-icon">🎧</div>
+						<h3 class="feature-title" data-translate="feature-podcast-title">
+							맞춤형 팟캐스트
+						</h3>
+						<p
+							class="feature-description"
+							data-translate="feature-podcast-desc"
+						>
+							추가한 단어들을 기반으로 자동 생성되는 팟캐스트로 자연스럽게
+							학습하세요. 스크립트도 함께 제공됩니다
+						</p>
+						<ul class="feature-list">
+							<li data-translate="feature-podcast-1">단어 기반 자동 생성</li>
+							<li data-translate="feature-podcast-2">다양한 스타일 지원</li>
+							<li data-translate="feature-podcast-3">스크립트 함께 제공</li>
+						</ul>
+					</div>
+
+					<!-- Quiz -->
+					<div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+						<div class="feature-icon">📝</div>
+						<h3 class="feature-title" data-translate="feature-quiz-title">
+							퀴즈 & 에세이
+						</h3>
+						<p class="feature-description" data-translate="feature-quiz-desc">
+							추가한 단어들로 자동 생성되는 퀴즈와 에세이 문제로 학습 효과를
+							극대화하세요
+						</p>
+						<ul class="feature-list">
+							<li data-translate="feature-quiz-1">단어 기반 퀴즈 생성</li>
+							<li data-translate="feature-quiz-2">에세이 문제 제공</li>
+							<li data-translate="feature-quiz-3">즉시 피드백 제공</li>
+						</ul>
+					</div>
+
+					<!-- Multi-language -->
+					<div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+						<div class="feature-icon">📄</div>
+						<h3 class="feature-title" data-translate="feature-multilang-title">
+							PDF 출력 & 인쇄
+						</h3>
+						<p
+							class="feature-description"
+							data-translate="feature-multilang-desc"
+						>
+							완성된 단어장과 퀴즈를 PDF로 내보내어 실제 종이에 인쇄하여
+							학습하세요
+						</p>
+						<ul class="feature-list">
+							<li data-translate="feature-multilang-1">단어장 PDF 출력</li>
+							<li data-translate="feature-multilang-2">퀴즈 PDF 출력</li>
+							<li data-translate="feature-multilang-3">실제 종이 인쇄 가능</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- How it Works -->
+		<section class="how-it-works">
+			<div class="container">
+				<div class="section-header">
+					<h2 class="section-title" data-translate="how-title">
+						나무보카 사용법
+					</h2>
+					<p class="section-description" data-translate="how-description">
+						간단한 4단계로 효과적인 언어 학습을 시작하세요
+					</p>
+				</div>
+
+				<div class="steps-container">
+					<div class="step-item" data-aos="fade-right" data-aos-delay="100">
+						<div class="step-number">1</div>
+						<div class="step-content">
+							<h3 class="step-title" data-translate="step1-title">즉시 추가</h3>
+							<p class="step-description" data-translate="step1-desc">
+								언제 어디서나 원하는 단어와 문장을 즉시 추가하세요
+							</p>
+						</div>
+						<div class="step-visual">
+							<div class="step-icon">
+								<svg
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<circle cx="12" cy="12" r="10" />
+									<path d="M12 8v8" />
+									<path d="M8 12h8" />
+								</svg>
+							</div>
+						</div>
+					</div>
+
+					<div
+						class="step-item reverse"
+						data-aos="fade-left"
+						data-aos-delay="200"
+					>
+						<div class="step-number">2</div>
+						<div class="step-content">
+							<h3 class="step-title" data-translate="step2-title">
+								팟캐스트 생성
+							</h3>
+							<p class="step-description" data-translate="step2-desc">
+								추가한 단어들을 기반으로 맞춤형 팟캐스트와 스크립트를 자동
+								생성하세요
+							</p>
+						</div>
+						<div class="step-visual">
+							<div class="step-icon">
+								<svg
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path d="M3 18v-6a9 9 0 0 1 18 0v6" />
+									<path
+										d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"
+									/>
+								</svg>
+							</div>
+						</div>
+					</div>
+
+					<div class="step-item" data-aos="fade-right" data-aos-delay="300">
+						<div class="step-number">3</div>
+						<div class="step-content">
+							<h3 class="step-title" data-translate="step3-title">
+								퀴즈 & 에세이
+							</h3>
+							<p class="step-description" data-translate="step3-desc">
+								단어 기반 퀴즈와 에세이 문제로 학습 효과를 확인하세요
+							</p>
+						</div>
+						<div class="step-visual">
+							<div class="step-icon">
+								<svg
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<circle cx="12" cy="12" r="10" />
+									<path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+									<path d="M12 17h.01" />
+								</svg>
+							</div>
+						</div>
+					</div>
+
+					<div
+						class="step-item reverse"
+						data-aos="fade-left"
+						data-aos-delay="400"
+					>
+						<div class="step-number">4</div>
+						<div class="step-content">
+							<h3 class="step-title" data-translate="step4-title">PDF 출력</h3>
+							<p class="step-description" data-translate="step4-desc">
+								완성된 단어장과 퀴즈를 PDF로 출력하여 실제 종이에 인쇄해
+								학습하세요
+							</p>
+						</div>
+						<div class="step-visual">
+							<div class="step-icon">
+								<svg
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path
+										d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+									/>
+									<polyline points="14,2 14,8 20,8" />
+									<path d="M12 18v-6" />
+									<path d="M9 15l3 3 3-3" />
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Download Section -->
+		<section id="download" class="download">
+			<div class="container">
+				<div class="download-content">
+					<div class="download-info" data-aos="fade-right">
+						<h2 class="section-title" data-translate="download-title">
+							지금 바로 시작하세요
+						</h2>
+						<p
+							class="section-description"
+							data-translate="download-description"
+						>
+							나무보카를 다운로드하고 언제 어디서나 즉시 추가하는 스마트한 언어
+							학습을 경험해보세요
+						</p>
+
+						<div class="download-badges">
+							<!-- TODO: Add actual App Store and Google Play Store links -->
+							<a href="#" class="download-badge" data-translate="download-ios">
+								<img
+									src="./images/app-store-badge.png"
+									alt="App Store에서 다운로드"
+									loading="eager"
+									style="border: 1px solid red"
+									onerror="console.log('App Store badge failed to load'); this.style.display='none'; this.parentElement.innerHTML='<div style=\'background:#000;color:#fff;padding:8px 16px;border-radius:8px;font-size:14px;\'>📱 App Store</div>'"
+								/>
+							</a>
+							<a
+								href="#"
+								class="download-badge"
+								data-translate="download-android"
+							>
+								<img
+									src="./images/google-play-badge.png"
+									alt="Google Play에서 다운로드"
+									loading="eager"
+									style="border: 1px solid blue"
+									onerror="console.log('Google Play badge failed to load'); this.style.display='none'; this.parentElement.innerHTML='<div style=\'background:#01875f;color:#fff;padding:8px 16px;border-radius:8px;font-size:14px;\'>📱 Google Play</div>'"
+								/>
+							</a>
+						</div>
+
+						<div class="download-features">
+							<div class="download-feature">
+								<span class="feature-check">✓</span>
+								<span data-translate="download-feature1">완전 무료</span>
+							</div>
+							<div class="download-feature">
+								<span class="feature-check">✓</span>
+								<span data-translate="download-feature3">오프라인 지원</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="download-visual" data-aos="fade-left">
+						<!-- TODO: Add app screenshots showing different screens -->
+						<div class="phone-preview">
+							<img
+								src="images/app-preview.png"
+								alt="나무보카 앱 미리보기"
+								class="preview-img"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- About Team Section -->
+		<section id="about" class="about">
+			<div class="container">
+				<div class="section-header">
+					<h2 class="section-title" data-translate="about-title">
+						팀 나무 (Team NAMU)
+					</h2>
+					<p class="section-description" data-translate="about-description">
+						언어 학습의 혁신을 꿈꾸는 개발자들이 모여 만든 프로젝트입니다
+					</p>
+				</div>
+
+				<div class="about-content">
+					<div class="mission-vision" data-aos="fade-up">
+						<div class="mission">
+							<h3 class="mission-title" data-translate="mission-title">
+								🎯 우리의 미션
+							</h3>
+							<p class="mission-text" data-translate="mission-text">
+								기술을 통해 누구나 쉽고 재미있게 언어를 배울 수 있는 세상을
+								만든다
+							</p>
+						</div>
+					</div>
+
+					<div class="values-grid">
+						<div class="value-card" data-aos="fade-up" data-aos-delay="100">
+							<div class="value-icon">💡</div>
+							<h4 class="value-title" data-translate="value1-title">혁신</h4>
+							<p class="value-description" data-translate="value1-desc">
+								다른 언어 학습 앱에서는 볼 수 없었던 창의적인 학습 방법 개발
+							</p>
+						</div>
+
+						<div class="value-card" data-aos="fade-up" data-aos-delay="200">
+							<div class="value-icon">🌍</div>
+							<h4 class="value-title" data-translate="value2-title">접근성</h4>
+							<p class="value-description" data-translate="value2-desc">
+								누구나 부담 없이 이용할 수 있는 서비스 제공
+							</p>
+						</div>
+
+						<div class="value-card" data-aos="fade-up" data-aos-delay="300">
+							<div class="value-icon">⭐</div>
+							<h4 class="value-title" data-translate="value3-title">품질</h4>
+							<p class="value-description" data-translate="value3-desc">
+								사용자 경험을 최우선으로 하는 고품질 콘텐츠
+							</p>
+						</div>
+
+						<div class="value-card" data-aos="fade-up" data-aos-delay="400">
+							<div class="value-icon">🚀</div>
+							<h4 class="value-title" data-translate="value4-title">성장</h4>
+							<p class="value-description" data-translate="value4-desc">
+								사용자와 함께 지속적으로 발전하는 플랫폼
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact Section -->
+		<section id="contact" class="contact">
+			<div class="container">
+				<div class="section-header">
+					<h2 class="section-title" data-translate="contact-title">문의하기</h2>
+					<p class="section-description" data-translate="contact-description">
+						궁금한 점이나 문의사항이 있으시면 언제든지 연락해주세요
+					</p>
+				</div>
+
+				<div class="contact-content">
+					<div class="contact-info" data-aos="fade-right">
+						<h3 class="contact-subtitle" data-translate="contact-info-title">
+							연락처 정보
+						</h3>
+
+						<div class="contact-item">
+							<div class="contact-icon">📧</div>
+							<div class="contact-details">
+								<h4 data-translate="contact-email-title">이메일</h4>
+								<p>support@namu-voca.com</p>
+							</div>
+						</div>
+
+						<div class="contact-item">
+							<div class="contact-icon">🌐</div>
+							<div class="contact-details">
+								<h4 data-translate="contact-website-title">웹사이트</h4>
+								<p>www.namu-voca.com</p>
+							</div>
+						</div>
+
+						<div class="contact-item">
+							<div class="contact-icon">⏰</div>
+							<div class="contact-details">
+								<h4 data-translate="contact-hours-title">응답 시간</h4>
+								<p data-translate="contact-hours-desc">평일 24시간 이내 응답</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="contact-form-container" data-aos="fade-left">
+						<form class="contact-form" id="contactForm">
+							<div class="form-group">
+								<label for="name" data-translate="form-name">이름 *</label>
+								<input type="text" id="name" name="name" required />
+							</div>
+
+							<div class="form-group">
+								<label for="email" data-translate="form-email">이메일 *</label>
+								<input type="email" id="email" name="email" required />
+							</div>
+
+							<div class="form-group">
+								<label for="subject" data-translate="form-subject"
+									>제목 *</label
+								>
+								<input type="text" id="subject" name="subject" required />
+							</div>
+
+							<div class="form-group">
+								<label for="message" data-translate="form-message"
+									>메시지 *</label
+								>
+								<textarea
+									id="message"
+									name="message"
+									rows="5"
+									required
+								></textarea>
+							</div>
+
+							<button
+								type="submit"
+								class="btn btn-primary form-submit"
+								data-translate="form-submit"
+							>
+								<span class="submit-text">메시지 보내기</span>
+								<span class="submit-loading" style="display: none"
+									>전송 중...</span
+								>
+							</button>
+						</form>
+
+						<div class="form-success" id="formSuccess" style="display: none">
+							<div class="success-icon">✓</div>
+							<h4 data-translate="form-success-title">
+								메시지가 전송되었습니다!
+							</h4>
+							<p data-translate="form-success-desc">
+								빠른 시일 내에 답변드리겠습니다.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-content">
+					<div class="footer-section">
+						<div class="footer-logo">
+							<img
+								src="images/logo.png"
+								alt="나무보카 로고"
+								class="footer-logo-img"
+							/>
+							<span class="footer-logo-text" data-translate="footer-logo"
+								>나무보카</span
+							>
+						</div>
+						<p class="footer-description" data-translate="footer-description">
+							언제 어디서나 즉시 추가하는 스마트한 언어 학습의 새로운 패러다임
+						</p>
+
+						<!-- TODO: Add social media links -->
+						<div class="social-links">
+							<a href="#" class="social-link" aria-label="Facebook">
+								<svg
+									width="20"
+									height="20"
+									viewBox="0 0 24 24"
+									fill="currentColor"
+								>
+									<path
+										d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+									/>
+								</svg>
+							</a>
+							<a href="#" class="social-link" aria-label="Twitter">
+								<svg
+									width="20"
+									height="20"
+									viewBox="0 0 24 24"
+									fill="currentColor"
+								>
+									<path
+										d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+									/>
+								</svg>
+							</a>
+							<a href="#" class="social-link" aria-label="Instagram">
+								<svg
+									width="20"
+									height="20"
+									viewBox="0 0 24 24"
+									fill="currentColor"
+								>
+									<path
+										d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+									/>
+								</svg>
+							</a>
+						</div>
+					</div>
+
+					<div class="footer-section">
+						<h4 class="footer-title" data-translate="footer-product">제품</h4>
+						<ul class="footer-links">
+							<li>
+								<a href="#features" data-translate="footer-features">기능</a>
+							</li>
+							<li>
+								<a href="#download" data-translate="footer-download"
+									>다운로드</a
+								>
+							</li>
+							<!-- TODO: Add pricing page link -->
+							<li><a href="#" data-translate="footer-pricing">가격</a></li>
+							<!-- TODO: Add updates page link -->
+							<li><a href="#" data-translate="footer-updates">업데이트</a></li>
+						</ul>
+					</div>
+
+					<div class="footer-section">
+						<h4 class="footer-title" data-translate="footer-support">지원</h4>
+						<ul class="footer-links">
+							<li>
+								<a href="#contact" data-translate="footer-contact">문의하기</a>
+							</li>
+							<!-- TODO: Add FAQ page link -->
+							<li>
+								<a href="#" data-translate="footer-faq">자주 묻는 질문</a>
+							</li>
+							<!-- TODO: Add help center link -->
+							<li><a href="#" data-translate="footer-help">도움말 센터</a></li>
+							<!-- TODO: Add community link -->
+							<li>
+								<a href="#" data-translate="footer-community">커뮤니티</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footer-section">
+						<h4 class="footer-title" data-translate="footer-company">회사</h4>
+						<ul class="footer-links">
+							<li>
+								<a href="#about" data-translate="footer-about">팀 소개</a>
+							</li>
+							<!-- TODO: Add blog link -->
+							<li><a href="#" data-translate="footer-blog">블로그</a></li>
+							<!-- TODO: Add careers link -->
+							<li><a href="#" data-translate="footer-careers">채용</a></li>
+							<!-- TODO: Add press kit link -->
+							<li><a href="#" data-translate="footer-press">보도자료</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="footer-bottom">
+					<div class="footer-legal">
+						<p data-translate="footer-copyright">
+							&copy; 2025 Team NAMU. All rights reserved.
+						</p>
+						<div class="legal-links">
+							<!-- TODO: Add privacy policy link -->
+							<a href="#" data-translate="footer-privacy">개인정보처리방침</a>
+							<!-- TODO: Add terms of service link -->
+							<a href="#" data-translate="footer-terms">이용약관</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Back to Top Button -->
+		<button class="back-to-top" id="backToTop" aria-label="맨 위로">
+			<svg
+				width="24"
+				height="24"
+				viewBox="0 0 24 24"
+				fill="none"
+				stroke="currentColor"
+				stroke-width="2"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+			>
+				<polyline points="18,15 12,9 6,15"></polyline>
+			</svg>
+		</button>
+
+		<!-- Scripts -->
+		<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

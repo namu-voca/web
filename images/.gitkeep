@@ -1,0 +1,51 @@
+# NAMU-VOCA Website Images
+
+All images go in this `images/` folder with these exact names:
+
+## 🚨 **ESSENTIAL FILES (Start Here):**
+
+1. **logo.png** - 256x256px - Navigation & footer logo
+2. **app-screenshot-main.png** - 300x600px - Hero section app screenshot
+3. **og-image.jpg** - 1200x630px - Social media sharing image
+4. **app-store-badge.png** - 135x40px - iOS download badge
+5. **google-play-badge.png** - 135x40px - Android download badge
+
+## 📱 **IMPORTANT FILES (Better Experience):**
+
+6. **step1.png** - 300x200px - Instant adding illustration
+7. **step2.png** - 300x200px - Podcast generation illustration
+8. **step3.png** - 300x200px - Quiz & essay illustration
+9. **step4.png** - 300x200px - PDF export illustration
+10. **app-preview.png** - 400x800px - Download section preview
+
+## 🔧 **OPTIONAL FILES:**
+
+11. **twitter-card.jpg** - 1200x600px - Twitter sharing image
+12. **favicon.ico** - 32x32px - Browser tab icon (place in root folder)
+13. **apple-touch-icon.png** - 180x180px - iOS icon (place in root folder)
+
+## 🎨 **Design Guidelines:**
+
+### Colors to Use:
+
+- **Primary**: #826032 (warm brown)
+- **Secondary**: #B28E60 (accent brown)
+- **Background**: #FFFFFF / #E5E1DA
+- **Text**: #2C1F0F (dark brown)
+
+### Content Guidelines:
+
+- **App Screenshots**: Show your actual app interface
+- **Step Illustrations**: Show the 4-step process (add → podcast → quiz → PDF)
+- **Social Images**: Include logo + "나무보카 - 세상을 변화시키는 단어장"
+- **Badges**: Use official Korean versions from Apple/Google
+
+### Technical Requirements:
+
+- PNG for screenshots/logos (with transparency)
+- JPG for social media images
+- ICO for favicon
+- Optimize for web (compress file sizes)
+- Use app's warm color palette consistently
+
+**Just add these files to the `images/` folder and your website will be complete!**
