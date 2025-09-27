@@ -143,6 +143,45 @@ const translations = {
 		"footer-copyright": "© 2025 Team NAMU. All rights reserved.",
 		"footer-privacy": "개인정보처리방침",
 		"footer-terms": "이용약관",
+		"footer-delete-account": "계정 및 데이터 삭제",
+
+		// Delete Account Page
+		"delete-page-title": "계정 및 데이터 삭제 - 나무보카",
+		"delete-page-description": "나무보카 앱에서 계정 및 데이터를 삭제하는 방법을 안내합니다.",
+		"delete-title": "계정 및 데이터 삭제",
+		"delete-subtitle": "나무보카 앱에서 계정과 모든 개인 데이터를 삭제하는 방법을 안내합니다.",
+		"delete-in-app-title": "🗑️ 앱 내에서 계정 삭제",
+		"delete-in-app-desc": "나무보카 앱에서 직접 계정과 모든 데이터를 삭제할 수 있습니다.",
+		"delete-steps-title": "단계별 삭제 방법:",
+		"delete-step-1": "나무보카 앱을 실행합니다",
+		"delete-step-2": "화면 하단의 <strong>'설정'</strong> 탭을 선택합니다",
+		"delete-step-3": "<strong>'계정 관리'</strong> 메뉴를 선택합니다",
+		"delete-step-4": "<strong>'계정 및 데이터 삭제'</strong> 옵션을 선택합니다",
+		"delete-step-5": "삭제될 데이터 목록을 확인합니다",
+		"delete-step-6": "<strong>'삭제 확인'</strong> 버튼을 선택하여 최종 삭제를 진행합니다",
+		"delete-warning-title": "⚠️ 중요 안내",
+		"delete-warning-desc": "계정 삭제 시 모든 개인 데이터가 영구적으로 삭제되며, 복구할 수 없습니다. 삭제 전 필요한 데이터는 미리 백업해주세요.",
+		"delete-data-list-title": "📊 삭제되는 데이터 목록",
+		"delete-data-account": "<strong>계정 정보:</strong> 사용자 프로필, 로그인 정보",
+		"delete-data-learning": "<strong>학습 데이터:</strong> 생성한 단어장, 학습 기록, 진도",
+		"delete-data-settings": "<strong>설정 정보:</strong> 앱 설정, 알림 설정",
+		"delete-data-podcast": "<strong>팟캐스트 기록:</strong> 생성한 팟캐스트, 재생 기록",
+		"delete-data-quiz": "<strong>퀴즈 결과:</strong> 퀴즈 점수, 성취도 기록",
+		"delete-data-cloud": "<strong>클라우드 동기화 데이터:</strong> 클라우드에 저장된 모든 데이터",
+		"delete-time-title": "⏱️ 삭제 처리 시간",
+		"delete-time-desc": "계정 삭제 요청 후 <strong>즉시</strong> 계정 및 관련 데이터가 삭제됩니다. 일부 백업 시스템에서는 최대 <strong>30일</strong> 이내에 완전히 제거됩니다.",
+		"delete-comparison-title": "📱 앱 삭제 vs 계정 삭제",
+		"delete-app-uninstall-title": "앱 삭제 (언인스톨)",
+		"delete-app-uninstall-desc": "• 기기에서만 앱 제거<br>• 계정 데이터는 서버에 보존<br>• 재설치 시 데이터 복원 가능",
+		"delete-account-full-title": "계정 삭제",
+		"delete-account-full-desc": "• 모든 서버 데이터 완전 삭제<br>• 복구 불가능<br>• 새로 가입 시 처음부터 시작",
+		"delete-help-title": "❓ 도움이 필요하신가요?",
+		"delete-support-title": "고객 지원 문의",
+		"delete-support-desc": "계정 삭제 과정에서 문제가 발생하거나 추가 도움이 필요하시면 아래로 연락해주세요:",
+		"delete-support-email": "<strong>이메일:</strong> support@namu-voca.com",
+		"delete-support-response": "<strong>응답 시간:</strong> 영업일 기준 24시간 이내",
+		"delete-back-button": "← 메인 페이지로 돌아가기",
+		"delete-last-updated": "최종 업데이트: 2025년 9월 27일",
 	},
 	en: {
 		// Navigation
@@ -284,6 +323,45 @@ const translations = {
 		"footer-copyright": "© 2025 Team NAMU. All rights reserved.",
 		"footer-privacy": "Privacy Policy",
 		"footer-terms": "Terms of Service",
+		"footer-delete-account": "Account & Data Deletion",
+
+		// Delete Account Page
+		"delete-page-title": "Account & Data Deletion - NAMU VOCA",
+		"delete-page-description": "Learn how to delete your account and data from the NAMU VOCA app.",
+		"delete-title": "Account & Data Deletion",
+		"delete-subtitle": "Learn how to delete your account and all personal data from the NAMU VOCA app.",
+		"delete-in-app-title": "🗑️ Delete Account from App",
+		"delete-in-app-desc": "You can delete your account and all data directly from the NAMU VOCA app.",
+		"delete-steps-title": "Step-by-step deletion process:",
+		"delete-step-1": "Open the NAMU VOCA app",
+		"delete-step-2": "Select the <strong>'Settings'</strong> tab at the bottom of the screen",
+		"delete-step-3": "Choose <strong>'Account Management'</strong> from the menu",
+		"delete-step-4": "Select <strong>'Delete Account & Data'</strong> option",
+		"delete-step-5": "Review the list of data to be deleted",
+		"delete-step-6": "Select <strong>'Confirm Deletion'</strong> to proceed with final deletion",
+		"delete-warning-title": "⚠️ Important Notice",
+		"delete-warning-desc": "Once you delete your account, all personal data will be permanently deleted and cannot be recovered. Please backup any necessary data before deletion.",
+		"delete-data-list-title": "📊 Data to be Deleted",
+		"delete-data-account": "<strong>Account Information:</strong> User profile, login credentials",
+		"delete-data-learning": "<strong>Learning Data:</strong> Created vocabulary lists, learning records, progress",
+		"delete-data-settings": "<strong>Settings:</strong> App settings, notification preferences",
+		"delete-data-podcast": "<strong>Podcast History:</strong> Generated podcasts, playback history",
+		"delete-data-quiz": "<strong>Quiz Results:</strong> Quiz scores, achievement records",
+		"delete-data-cloud": "<strong>Cloud Sync Data:</strong> All data stored in the cloud",
+		"delete-time-title": "⏱️ Deletion Processing Time",
+		"delete-time-desc": "Your account and related data will be deleted <strong>immediately</strong> after requesting account deletion. Some backup systems may take up to <strong>30 days</strong> for complete removal.",
+		"delete-comparison-title": "📱 Uninstalling App vs Account Deletion",
+		"delete-app-uninstall-title": "App Uninstallation",
+		"delete-app-uninstall-desc": "• Only removes app from device<br>• Account data remains on server<br>• Data can be restored upon reinstall",
+		"delete-account-full-title": "Account Deletion",
+		"delete-account-full-desc": "• Completely deletes all server data<br>• Cannot be recovered<br>• Must start fresh if re-registering",
+		"delete-help-title": "❓ Need Help?",
+		"delete-support-title": "Customer Support",
+		"delete-support-desc": "If you encounter any issues during the account deletion process or need additional help, please contact us:",
+		"delete-support-email": "<strong>Email:</strong> support@namu-voca.com",
+		"delete-support-response": "<strong>Response Time:</strong> Within 24 hours on business days",
+		"delete-back-button": "← Back to Main Page",
+		"delete-last-updated": "Last Updated: September 27, 2025",
 	},
 };
 
@@ -306,6 +384,7 @@ function initializeApp() {
 	// Initialize all components
 	initializeNavigation();
 	initializeLanguageToggle();
+	initializeThemeToggle();
 	initializeScrollEffects();
 	initializeContactForm();
 	initializeSmoothScrolling();
@@ -316,6 +395,9 @@ function initializeApp() {
 		localStorage.getItem("namu-voca-lang") ||
 		(navigator.language.startsWith("ko") ? "ko" : "en");
 	setLanguage(savedLang);
+
+	// Set initial theme
+	initializeTheme();
 }
 
 // Navigation Functions
@@ -446,6 +528,56 @@ function updateMetaTags(lang) {
 
 	if (twitterDescription && translations[lang]["page-description"]) {
 		twitterDescription.content = translations[lang]["page-description"];
+	}
+}
+
+// Theme Functions
+function initializeThemeToggle() {
+	const themeToggle = document.getElementById("theme-toggle");
+	if (themeToggle) {
+		themeToggle.addEventListener("click", toggleTheme);
+	}
+}
+
+function initializeTheme() {
+	// Get saved theme or default to light
+	const savedTheme = localStorage.getItem("namu-voca-theme") || "light";
+	setTheme(savedTheme);
+}
+
+function toggleTheme() {
+	const currentTheme = document.documentElement.getAttribute("data-theme") || "light";
+	const newTheme = currentTheme === "light" ? "dark" : "light";
+	setTheme(newTheme);
+}
+
+function setTheme(theme) {
+	document.documentElement.setAttribute("data-theme", theme);
+	localStorage.setItem("namu-voca-theme", theme);
+	
+	// Update theme button icon
+	const themeButton = document.getElementById("theme-toggle");
+	if (themeButton) {
+		const icon = themeButton.querySelector("svg");
+		if (theme === "dark") {
+			// Moon icon for dark mode
+			icon.innerHTML = `
+				<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+			`;
+		} else {
+			// Sun icon for light mode
+			icon.innerHTML = `
+				<circle cx="12" cy="12" r="5"></circle>
+				<line x1="12" y1="1" x2="12" y2="3"></line>
+				<line x1="12" y1="21" x2="12" y2="23"></line>
+				<line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+				<line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+				<line x1="1" y1="12" x2="3" y2="12"></line>
+				<line x1="21" y1="12" x2="23" y2="12"></line>
+				<line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+				<line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+			`;
+		}
 	}
 }
 
