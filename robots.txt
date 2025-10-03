@@ -1,3 +1,16 @@
+# Allow Google AdMob crawler to access app-ads.txt
+User-agent: Google-adstxt
+Disallow:
+
+# Allow Mediapartners-Google (AdMob also uses this)
+User-agent: Mediapartners-Google
+Disallow:
+
+# Allow Googlebot
+User-agent: Googlebot
+Disallow:
+
+# Allow all other crawlers
 User-agent: *
 Allow: /
 
